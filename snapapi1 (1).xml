@@ -1,0 +1,6 @@
+<domainsnapshot>               
+                <name>snapapi1</name>                
+                <description>libvirtapi</description>                       
+                <disk   name='/home/lee/win7.qcow2'>                
+                </disk>               
+                </domainsnapshot>

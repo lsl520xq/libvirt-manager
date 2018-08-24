@@ -1,0 +1,11 @@
+ <network>
+                     <name>test12</name>
+                  <bridge name="vr8"/>
+                 <forward mode="route" dev="eth1"/>
+                <ip address="10.0.100.2" netmask="255.255.255.0">
+                 <dhcp>
+                        <range start="10.0.100.2" end="10.0.100.254"/>
+                   </dhcp>
+                         </ip>
+                 <ip family="ipv6" address="2001:db8:ca2:2::1" prefix="64"/>
+                      </network>

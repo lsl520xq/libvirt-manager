@@ -1,0 +1,10 @@
+ <network>
+                           <name>test3</name>
+                              <bridge name="vr2" />
+                          <forward mode="nat"/>
+                        <ip address="10.0.100.1" netmask="255.255.255.0">
+                             <dhcp>
+                          <range start="10.0.100.2" end="10.0.100.254" />
+                        </dhcp>
+                      </ip>
+                       </network> 
